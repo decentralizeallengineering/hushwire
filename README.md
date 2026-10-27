@@ -1,5 +1,7 @@
 # hushwire
 
+[![tests](https://github.com/decentralizeallengineering/hushwire/actions/workflows/tests.yml/badge.svg)](https://github.com/decentralizeallengineering/hushwire/actions/workflows/tests.yml) ![license](https://img.shields.io/badge/license-Apache--2.0-blue)
+
 Fewer cross-session messages for fleets of Claude Code sessions.
 
 Why: sessions that message each other for every status update flood each other's context. Status belongs in a state file; messages should carry a new order, a blocker or a question. hushwire enforces that with a hook and gives you tools to batch and measure the rest.
